@@ -1,57 +1,230 @@
-<mxfile host="app.diagrams.net" modified="2023-05-17T02:29:50.746Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="aSdcD6DbxQFRzHZspdIA" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-18T13:23:17.852Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="IYF4BddPOhO0YkWS5XMs" version="21.3.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1562" dy="989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1366" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OGtsvJANZlsi_fsoDVJP-0" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="260" y="320" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Start" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="200" y="30" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ijmIVuTmGwpYKiTPEt5I-0" value="Import random module" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="200" y="110" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="OGtsvJANZlsi_fsoDVJP-1" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="OGtsvJANZlsi_fsoDVJP-0">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="260" y="70" as="sourcePoint" />
-            <mxPoint x="260" y="350" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OGtsvJANZlsi_fsoDVJP-0" value="print introduction&amp;nbsp;&lt;br&gt;to game" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="200" y="210" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="OGtsvJANZlsi_fsoDVJP-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OGtsvJANZlsi_fsoDVJP-3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="440" y="420" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OGtsvJANZlsi_fsoDVJP-3" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="370" y="330" width="140" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="OGtsvJANZlsi_fsoDVJP-4" value="guessing_game()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OGtsvJANZlsi_fsoDVJP-3">
-          <mxGeometry y="20" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="OGtsvJANZlsi_fsoDVJP-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OGtsvJANZlsi_fsoDVJP-7" target="OGtsvJANZlsi_fsoDVJP-12">
+        <mxCell id="xvNg0tQxGbENav2seinT-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="xvNg0tQxGbENav2seinT-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OGtsvJANZlsi_fsoDVJP-7" value="guessing ()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="40" y="460" width="120" height="60" as="geometry" />
+        <mxCell id="xvNg0tQxGbENav2seinT-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="xvNg0tQxGbENav2seinT-57">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OGtsvJANZlsi_fsoDVJP-9" value="Did User press enter&amp;nbsp;&lt;br&gt;to play the game" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="200" y="320" width="120" height="60" as="geometry" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Start" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="40" y="20" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OGtsvJANZlsi_fsoDVJP-10" value="No, break program" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="20" y="320" width="120" height="60" as="geometry" />
+        <mxCell id="OGtsvJANZlsi_fsoDVJP-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OGtsvJANZlsi_fsoDVJP-7" target="OGtsvJANZlsi_fsoDVJP-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OGtsvJANZlsi_fsoDVJP-11" value="Yes, start guessing game fuction" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="380" y="220" width="120" height="60" as="geometry" />
+        <mxCell id="OGtsvJANZlsi_fsoDVJP-7" value="guessing_game()" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="40" y="1210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OGtsvJANZlsi_fsoDVJP-12" value="user input and vairable for guess" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="40" y="600" width="120" height="60" as="geometry" />
+        <mxCell id="xvNg0tQxGbENav2seinT-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="1820" as="sourcePoint" />
+            <mxPoint x="100" y="1840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OGtsvJANZlsi_fsoDVJP-12" value="user input for hidden number and variable for attempts" style="whiteSpace=wrap;html=1;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="40" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-0" value="Import random module" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xvNg0tQxGbENav2seinT-14" target="xvNg0tQxGbENav2seinT-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xvNg0tQxGbENav2seinT-14" target="xvNg0tQxGbENav2seinT-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-14" value="If user guess &amp;lt;&lt;br&gt;hidden number" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="1749" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xvNg0tQxGbENav2seinT-16" target="xvNg0tQxGbENav2seinT-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xvNg0tQxGbENav2seinT-16" target="xvNg0tQxGbENav2seinT-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-16" value="elif user guess &amp;lt;&amp;nbsp;&lt;br&gt;hidden number" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="1749" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xvNg0tQxGbENav2seinT-17" target="xvNg0tQxGbENav2seinT-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-17" value="else&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="380" y="1749" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-23" value="print number is&amp;nbsp;&lt;br&gt;Too Low" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="1889" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xvNg0tQxGbENav2seinT-54" target="xvNg0tQxGbENav2seinT-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="1380" as="sourcePoint" />
+            <mxPoint x="100" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xvNg0tQxGbENav2seinT-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="1575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xvNg0tQxGbENav2seinT-25" target="xvNg0tQxGbENav2seinT-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-25" value="If User Input = q" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="1530" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="xvNg0tQxGbENav2seinT-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="1949" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-29" value="print number is&amp;nbsp;&lt;br&gt;Too High" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="220" y="1889" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-30" value="print Congrations and&lt;br&gt;number of attempts" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="1889" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-32" value="return" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="1999" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xvNg0tQxGbENav2seinT-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xvNg0tQxGbENav2seinT-39" target="xvNg0tQxGbENav2seinT-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-39" value="if start_game =&lt;br&gt;q" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="170" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xvNg0tQxGbENav2seinT-40" target="xvNg0tQxGbENav2seinT-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xvNg0tQxGbENav2seinT-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-40" value="elif start_game =&lt;br&gt;&quot; &quot;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="170" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xvNg0tQxGbENav2seinT-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="309.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-42" value="else" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="445" y="170" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="xvNg0tQxGbENav2seinT-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="365" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-50" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="455" y="310" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-51" value="guessing_game()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="xvNg0tQxGbENav2seinT-50">
+          <mxGeometry y="20" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OGtsvJANZlsi_fsoDVJP-12" target="xvNg0tQxGbENav2seinT-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="1380" as="sourcePoint" />
+            <mxPoint x="100" y="1530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-54" value="Print welcome &lt;br&gt;message" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="35" y="1420" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xvNg0tQxGbENav2seinT-57" target="xvNg0tQxGbENav2seinT-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-57" value="start_game input" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="35" y="85" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-58" value="End" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-61" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="370" as="sourcePoint" />
+            <mxPoint x="320" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-62" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="410" as="sourcePoint" />
+            <mxPoint x="220" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-63" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="115" as="sourcePoint" />
+            <mxPoint x="220" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-64" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="xvNg0tQxGbENav2seinT-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="115" as="sourcePoint" />
+            <mxPoint x="570" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-65" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=28;endSize=4.3;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="524.5" y="370" as="sourcePoint" />
+            <mxPoint x="524.5" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xvNg0tQxGbENav2seinT-69" target="xvNg0tQxGbENav2seinT-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.05;entryY=0.489;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xvNg0tQxGbENav2seinT-69" target="xvNg0tQxGbENav2seinT-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-69" value="elif guess is digit()" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="1530" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xvNg0tQxGbENav2seinT-70" target="xvNg0tQxGbENav2seinT-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-70" value="else" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="375" y="1530" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-71" value="print &quot;Goodbye!&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="1640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xvNg0tQxGbENav2seinT-73" target="xvNg0tQxGbENav2seinT-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-73" value="guess = int(guess)&lt;br&gt;attempts += 1" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="220" y="1640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xvNg0tQxGbENav2seinT-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="1500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="1670" />
+              <mxPoint x="560" y="1500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-75" value="print &quot;Invalid Input&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="395" y="1640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-88" value="print &quot;Goodbye!&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="35" y="305" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-90" value="print &quot;Invalid Input&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="255" y="310" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xvNg0tQxGbENav2seinT-91" value="&lt;div&gt;import random&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;function guessing_game():&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; secret_number = random.randint(1, 100)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; attempts = 0&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; print(&quot;Welcome to the Number Guessing Game!&quot;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; print(&quot;Please enter a number 1-100 for a surprise.&quot;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; while True:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; user_guess = input(&quot;Take a guess: &quot;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if user_guess.lower() == &#39;q&#39;:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; print(&quot;Thanks for playing. Goodbye!&quot;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; elif user_guess.isdigit():&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; user_guess = int(user_guess)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; attempts = attempts + 1&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if user_guess &amp;lt; secret_number:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; print(&quot;Too low!&quot;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; else if user_guess &amp;gt; secret_number:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; print(&quot;Too high!&quot;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; else:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; print(&quot;Congratulations! You guessed it in&quot;, attempts, &quot;attempts.&quot;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; else:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; print(&quot;Invalid input. Please enter a number or &#39;q&#39; to quit.&quot;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;start_game = input(&quot;Press Enter to start the guessing game or &#39;q&#39; to quit: &quot;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;if start_game == &#39;q&#39;:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; print(&quot;Goodbye!&quot;)&lt;/div&gt;&lt;div&gt;else if start_game != &#39;&#39;:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; print(&quot;Invalid input. Please press Enter or &#39;q&#39; to quit.&quot;)&lt;/div&gt;&lt;div&gt;else:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; guessing_game()&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="10" y="2350" width="810" height="550" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
