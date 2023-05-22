@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-22T17:55:51.925Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="ebdE2qkrGkSKR2pTOfn3" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-22T18:01:07.559Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="1uxpoKeKHJ8IS9E2-E31" version="21.3.2" type="github">
   <diagram name="Page-1" id="mrdvNwNOAgpOfBFLOq2P">
-    <mxGraphModel dx="1434" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -111,6 +111,9 @@
         </mxCell>
         <mxCell id="cOs4_D9uQ-N4AN0yVeO3-44" value="output sum does&amp;nbsp;&amp;nbsp;&lt;br&gt;not equals third" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
           <mxGeometry x="420" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cOs4_D9uQ-N4AN0yVeO3-45" value="&lt;div&gt;# Calculation function starts after user inputs&lt;/div&gt;&lt;div&gt;function check_sum(numbers):&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # num1, num2, and num3 are bypassed as a parameter to check_sum&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; a, b, c = numbers&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Check if the sum of a and b is equal to c&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if a + b == c:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; # Print a message indicating that a pair of numbers sums up to the third&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; print &quot;A pair of numbers sums up to the third.&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; else:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; # Print a message indicating that the pair of numbers does not sum up to the third&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; print &quot;The pair of numbers does not sum up to the third.&quot;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Prompt the user to enter three numbers&lt;/div&gt;&lt;div&gt;num1 = input(&quot;Enter the first number: &quot;)&lt;/div&gt;&lt;div&gt;num2 = input(&quot;Enter the second number: &quot;)&lt;/div&gt;&lt;div&gt;num3 = input(&quot;Enter the third number: &quot;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Call the check_sum function with the input numbers&lt;/div&gt;&lt;div&gt;check_sum([num1, num2, num3])&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="620" width="610" height="470" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
