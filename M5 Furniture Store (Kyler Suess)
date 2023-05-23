@@ -1,26 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2023-05-23T00:28:39.007Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="tK6HkFrjm0MOwI1zI99t" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-23T00:30:51.598Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="zzKwzIXJBUnZ3pdkugKC" version="21.3.2" type="github">
   <diagram name="Page-1" id="dQc4y8ErrxUQpngvalUt">
-    <mxGraphModel dx="1588" dy="856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3970" dy="1855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="KCwpbkKfEhOYaYlePIbT-1" value="&lt;div&gt;&lt;div&gt;# Import necessary modules&lt;/div&gt;&lt;div&gt;Import random&lt;/div&gt;&lt;div&gt;Import re&lt;/div&gt;&lt;div&gt;Import csv&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Function to generate an account number&lt;/div&gt;&lt;div&gt;Function generate_account_number(name, purchase_price):&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Convert name to lowercase and remove spaces&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; name = Lowercase(name)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; name = RemoveSpaces(name)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Generate a random 4-digit number&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; random_number = RandomNumberBetween(1000, 9999)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Create the account number using name, random number, and purchase price&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; account_number = GetFirstThreeCharacters(name) + ConvertToString(random_number) + ConvertToString(Integer(purchase_price))&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Return account_number&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Function to calculate monthly payment&lt;/div&gt;&lt;div&gt;Function calculate_monthly_payment(purchase_price):&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Return purchase_price / 12&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Function to validate customer name&lt;/div&gt;&lt;div&gt;Function validate_name(name):&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; pattern = &quot;^[a-zA-Z ]+$&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; If Not Match(pattern, name):&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Print &quot;Invalid name. Please enter only alphabetical characters and spaces.&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Return False&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Return True&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Function to validate purchase price&lt;/div&gt;&lt;div&gt;Function validate_price(price):&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; price_pattern = &quot;^\D+$&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; If Not Match(&quot;^\d+(\.\d+)?$&quot;, price):&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Print &quot;Invalid price. Please enter a numeric value.&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Return False&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Return True&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Function to process customer information&lt;/div&gt;&lt;div&gt;Function process_customer():&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Prompt for customer name&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; customer_name = Input(&quot;Enter customer name (or enter &#39;quit&#39; to exit): &quot;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Check if customer wants to quit&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; If Lowercase(customer_name) == &quot;quit&quot;:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Return False&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Validate customer name&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; If Not validate_name(customer_name):&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Return True&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Loop until a valid purchase price is entered&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; While True:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; purchase_price = Input(&quot;Enter purchase price: &quot;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; # Validate purchase price&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; If validate_price(purchase_price):&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Break&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Convert purchase price to float&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; purchase_price = ConvertToFloat(purchase_price)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Generate account number&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; account_number = generate_account_number(customer_name, purchase_price)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Print customer information&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Print &quot;Account Number:&quot;, account_number&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Print &quot;Customer Name:&quot;, customer_name&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Calculate and print monthly payments&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; monthly_payment = calculate_monthly_payment(purchase_price)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Print &quot;Monthly Payments for the next 12 months:&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; For month in Range(1, 13):&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Print &quot;Month {}: ${:.2f}&quot;.Format(month, monthly_payment)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Write customer information to CSV file&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Open &quot;customer_data.csv&quot; in append mode&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Create a CSV writer object&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Write a new row with account number, customer name, and purchase price&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Return True&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Main function&lt;/div&gt;&lt;div&gt;Function main():&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Open the CSV file and write the header row&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Open &quot;customer_data.csv&quot; in write mode&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Create a CSV writer object&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Write the header row [&quot;Account Number&quot;, &quot;Customer Name&quot;, &quot;Purchase Price&quot;]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Loop to process customers&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; While True:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; # Process customer information&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; If Not process_customer():&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Break&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Execute the main function if this script is run directly&lt;/div&gt;&lt;div&gt;If ThisScriptIsRunDirectly():&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Run the main function&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="860" y="80" width="600" height="1500" as="geometry" />
+        <mxCell id="KCwpbkKfEhOYaYlePIbT-1" value="&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Calculate and print monthly payments&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; monthly_payment = calculate_monthly_payment(purchase_price)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Print &quot;Monthly Payments for the next 12 months:&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; For month in Range(1, 13):&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Print &quot;Month {}: ${:.2f}&quot;.Format(month, monthly_payment)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Write customer information to CSV file&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Open &quot;customer_data.csv&quot; in append mode&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Create a CSV writer object&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Write a new row with account number, customer name, and purchase price&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Return True&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Main function&lt;/div&gt;&lt;div&gt;Function main():&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Open the CSV file and write the header row&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Open &quot;customer_data.csv&quot; in write mode&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Create a CSV writer object&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Write the header row [&quot;Account Number&quot;, &quot;Customer Name&quot;, &quot;Purchase Price&quot;]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Loop to process customers&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; While True:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; # Process customer information&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; If Not process_customer():&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Break&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Execute the main function if this script is run directly&lt;/div&gt;&lt;div&gt;If ThisScriptIsRunDirectly():&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Run the main function&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="880" y="990" width="600" height="600" as="geometry" />
         </mxCell>
         <mxCell id="KCwpbkKfEhOYaYlePIbT-6" value="def generate&lt;br&gt;_account_number" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="50" y="1130" width="120" height="60" as="geometry" />
+          <mxGeometry x="930" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KCwpbkKfEhOYaYlePIbT-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KCwpbkKfEhOYaYlePIbT-7" target="KCwpbkKfEhOYaYlePIbT-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KCwpbkKfEhOYaYlePIbT-7" value="def monthly_&lt;br&gt;payment" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="255" y="1130" width="120" height="60" as="geometry" />
+          <mxGeometry x="1135" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KCwpbkKfEhOYaYlePIbT-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KCwpbkKfEhOYaYlePIbT-8" target="KCwpbkKfEhOYaYlePIbT-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KCwpbkKfEhOYaYlePIbT-8" value="def validate_&lt;br&gt;name" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
-          <mxGeometry x="450" y="1130" width="120" height="60" as="geometry" />
+          <mxGeometry x="1330" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c8FK5pBBMu-roOQv6ldh-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="c8FK5pBBMu-roOQv6ldh-53" target="c8FK5pBBMu-roOQv6ldh-51">
           <mxGeometry relative="1" as="geometry" />
@@ -29,7 +29,7 @@
           <mxGeometry x="57.5" y="750" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="KCwpbkKfEhOYaYlePIbT-24" value="purchase price /12 return monthly" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="255" y="1220" width="120" height="60" as="geometry" />
+          <mxGeometry x="1135" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KCwpbkKfEhOYaYlePIbT-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="c8FK5pBBMu-roOQv6ldh-1" target="KCwpbkKfEhOYaYlePIbT-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -38,13 +38,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KCwpbkKfEhOYaYlePIbT-26" value="define pattern variable&lt;br&gt;(checks for numbers &amp;amp; special characters)" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
-          <mxGeometry x="450" y="1220" width="120" height="60" as="geometry" />
+          <mxGeometry x="1330" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KCwpbkKfEhOYaYlePIbT-28" value="return True" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
-          <mxGeometry x="450" y="1440" width="120" height="60" as="geometry" />
+          <mxGeometry x="1330" y="570" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KCwpbkKfEhOYaYlePIbT-30" value="return False" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
-          <mxGeometry x="630" y="1320" width="120" height="60" as="geometry" />
+          <mxGeometry x="1510" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KCwpbkKfEhOYaYlePIbT-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" target="KCwpbkKfEhOYaYlePIbT-55" edge="1" source="c8FK5pBBMu-roOQv6ldh-51">
           <mxGeometry relative="1" as="geometry">
@@ -107,43 +107,43 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KCwpbkKfEhOYaYlePIbT-87" value="name variable to convert name to lowercase and remove spaces" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="50" y="1220" width="120" height="60" as="geometry" />
+          <mxGeometry x="930" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KCwpbkKfEhOYaYlePIbT-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KCwpbkKfEhOYaYlePIbT-88" target="KCwpbkKfEhOYaYlePIbT-93" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KCwpbkKfEhOYaYlePIbT-88" value="define random variable (1000-9999)" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="50" y="1320" width="120" height="60" as="geometry" />
+          <mxGeometry x="930" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KCwpbkKfEhOYaYlePIbT-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KCwpbkKfEhOYaYlePIbT-93" target="KCwpbkKfEhOYaYlePIbT-95" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KCwpbkKfEhOYaYlePIbT-93" value="account number = name + random_number + purchase price" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="50" y="1420" width="120" height="60" as="geometry" />
+          <mxGeometry x="930" y="550" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KCwpbkKfEhOYaYlePIbT-95" value="return account_number" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
-          <mxGeometry x="50" y="1510" width="120" height="60" as="geometry" />
+          <mxGeometry x="930" y="640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c8FK5pBBMu-roOQv6ldh-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KCwpbkKfEhOYaYlePIbT-26" target="c8FK5pBBMu-roOQv6ldh-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="510" y="1280" as="sourcePoint" />
-            <mxPoint x="510" y="1470" as="targetPoint" />
+            <mxPoint x="1390" y="410" as="sourcePoint" />
+            <mxPoint x="1390" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="c8FK5pBBMu-roOQv6ldh-1" value="is name equal to&lt;br&gt;pattern" style="rhombus;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
-          <mxGeometry x="445" y="1305" width="130" height="90" as="geometry" />
+          <mxGeometry x="1325" y="435" width="130" height="90" as="geometry" />
         </mxCell>
         <mxCell id="c8FK5pBBMu-roOQv6ldh-3" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="570" y="1315" width="60" height="30" as="geometry" />
+          <mxGeometry x="1450" y="445" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c8FK5pBBMu-roOQv6ldh-4" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="510" y="1390" width="60" height="30" as="geometry" />
+          <mxGeometry x="1390" y="520" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c8FK5pBBMu-roOQv6ldh-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c8FK5pBBMu-roOQv6ldh-6" target="c8FK5pBBMu-roOQv6ldh-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="c8FK5pBBMu-roOQv6ldh-6" value="def validate_&lt;br&gt;price" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="450" y="1530" width="120" height="60" as="geometry" />
+          <mxGeometry x="1330" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c8FK5pBBMu-roOQv6ldh-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c8FK5pBBMu-roOQv6ldh-13" target="c8FK5pBBMu-roOQv6ldh-10">
           <mxGeometry relative="1" as="geometry" />
@@ -152,28 +152,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="c8FK5pBBMu-roOQv6ldh-9" value="define price _pattern variable&lt;br&gt;(checks for letters &amp;amp; special characters)" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="450" y="1620" width="120" height="60" as="geometry" />
+          <mxGeometry x="1330" y="750" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c8FK5pBBMu-roOQv6ldh-10" value="return True" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
-          <mxGeometry x="450" y="1840" width="120" height="60" as="geometry" />
+          <mxGeometry x="1330" y="970" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c8FK5pBBMu-roOQv6ldh-11" value="return False" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
-          <mxGeometry x="630" y="1720" width="120" height="60" as="geometry" />
+          <mxGeometry x="1510" y="850" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c8FK5pBBMu-roOQv6ldh-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c8FK5pBBMu-roOQv6ldh-9" target="c8FK5pBBMu-roOQv6ldh-13">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="510" y="1680" as="sourcePoint" />
-            <mxPoint x="510" y="1870" as="targetPoint" />
+            <mxPoint x="1390" y="810" as="sourcePoint" />
+            <mxPoint x="1390" y="1000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="c8FK5pBBMu-roOQv6ldh-13" value="is name equal to&lt;br&gt;price_pattern" style="rhombus;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
-          <mxGeometry x="445" y="1705" width="130" height="90" as="geometry" />
+          <mxGeometry x="1325" y="835" width="130" height="90" as="geometry" />
         </mxCell>
         <mxCell id="c8FK5pBBMu-roOQv6ldh-14" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="570" y="1720" width="60" height="30" as="geometry" />
+          <mxGeometry x="1450" y="850" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c8FK5pBBMu-roOQv6ldh-15" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="510" y="1795" width="60" height="30" as="geometry" />
+          <mxGeometry x="1390" y="925" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c8FK5pBBMu-roOQv6ldh-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c8FK5pBBMu-roOQv6ldh-16" target="c8FK5pBBMu-roOQv6ldh-17">
           <mxGeometry relative="1" as="geometry" />
@@ -325,22 +325,22 @@
           <mxGeometry x="57.5" y="990" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c8FK5pBBMu-roOQv6ldh-67" value="def generate&lt;br&gt;_account_number" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="1130" width="120" height="60" as="geometry" />
+          <mxGeometry x="930" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c8FK5pBBMu-roOQv6ldh-68" value="name variable to convert name to lowercase and remove spaces" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="1220" width="120" height="60" as="geometry" />
+          <mxGeometry x="930" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c8FK5pBBMu-roOQv6ldh-69" value="define random variable (1000-9999)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="1320" width="120" height="60" as="geometry" />
+          <mxGeometry x="930" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c8FK5pBBMu-roOQv6ldh-70" value="account number = name + random_number + purchase price" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="1420" width="120" height="60" as="geometry" />
+          <mxGeometry x="930" y="550" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c8FK5pBBMu-roOQv6ldh-71" value="def monthly_&lt;br&gt;payment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="255" y="1130" width="120" height="60" as="geometry" />
+          <mxGeometry x="1135" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c8FK5pBBMu-roOQv6ldh-72" value="purchase price /12 return monthly" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="255" y="1220" width="120" height="60" as="geometry" />
+          <mxGeometry x="1135" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c8FK5pBBMu-roOQv6ldh-73" value="return false" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
           <mxGeometry x="450" y="10" width="120" height="60" as="geometry" />
@@ -379,22 +379,22 @@
           <mxGeometry x="57.5" y="990" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c8FK5pBBMu-roOQv6ldh-85" value="def generate&lt;br&gt;_account_number" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="50" y="1130" width="120" height="60" as="geometry" />
+          <mxGeometry x="930" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c8FK5pBBMu-roOQv6ldh-86" value="name variable to convert name to lowercase and remove spaces" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="50" y="1220" width="120" height="60" as="geometry" />
+          <mxGeometry x="930" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c8FK5pBBMu-roOQv6ldh-87" value="define random variable (1000-9999)" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="50" y="1320" width="120" height="60" as="geometry" />
+          <mxGeometry x="930" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c8FK5pBBMu-roOQv6ldh-88" value="account number = name + random_number + purchase price" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="50" y="1420" width="120" height="60" as="geometry" />
+          <mxGeometry x="930" y="550" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c8FK5pBBMu-roOQv6ldh-89" value="def monthly_&lt;br&gt;payment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="255" y="1130" width="120" height="60" as="geometry" />
+          <mxGeometry x="1135" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c8FK5pBBMu-roOQv6ldh-90" value="purchase price /12 return monthly" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="255" y="1220" width="120" height="60" as="geometry" />
+          <mxGeometry x="1135" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c8FK5pBBMu-roOQv6ldh-91" value="customer_name=&lt;br&gt;input" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
           <mxGeometry x="240" y="150" width="120" height="60" as="geometry" />
@@ -404,6 +404,9 @@
         </mxCell>
         <mxCell id="c8FK5pBBMu-roOQv6ldh-93" value="print account, number &amp;amp;&amp;nbsp;&lt;br&gt;customer_name" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
           <mxGeometry x="230" y="540" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c8FK5pBBMu-roOQv6ldh-94" value="&lt;div&gt;&lt;div&gt;# Import necessary modules&lt;/div&gt;&lt;div&gt;Import random&lt;/div&gt;&lt;div&gt;Import re&lt;/div&gt;&lt;div&gt;Import csv&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Function to generate an account number&lt;/div&gt;&lt;div&gt;Function generate_account_number(name, purchase_price):&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Convert name to lowercase and remove spaces&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; name = Lowercase(name)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; name = RemoveSpaces(name)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Generate a random 4-digit number&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; random_number = RandomNumberBetween(1000, 9999)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Create the account number using name, random number, and purchase price&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; account_number = GetFirstThreeCharacters(name) + ConvertToString(random_number) + ConvertToString(Integer(purchase_price))&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Return account_number&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Function to calculate monthly payment&lt;/div&gt;&lt;div&gt;Function calculate_monthly_payment(purchase_price):&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Return purchase_price / 12&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Function to validate customer name&lt;/div&gt;&lt;div&gt;Function validate_name(name):&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; pattern = &quot;^[a-zA-Z ]+$&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; If Not Match(pattern, name):&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Print &quot;Invalid name. Please enter only alphabetical characters and spaces.&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Return False&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Return True&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Function to validate purchase price&lt;/div&gt;&lt;div&gt;Function validate_price(price):&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; price_pattern = &quot;^\D+$&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; If Not Match(&quot;^\d+(\.\d+)?$&quot;, price):&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Print &quot;Invalid price. Please enter a numeric value.&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Return False&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Return True&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Function to process customer information&lt;/div&gt;&lt;div&gt;Function process_customer():&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Prompt for customer name&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; customer_name = Input(&quot;Enter customer name (or enter &#39;quit&#39; to exit): &quot;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Check if customer wants to quit&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; If Lowercase(customer_name) == &quot;quit&quot;:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Return False&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Validate customer name&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; If Not validate_name(customer_name):&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Return True&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Loop until a valid purchase price is entered&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; While True:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; purchase_price = Input(&quot;Enter purchase price: &quot;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; # Validate purchase price&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; If validate_price(purchase_price):&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Break&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Convert purchase price to float&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; purchase_price = ConvertToFloat(purchase_price)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Generate account number&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; account_number = generate_account_number(customer_name, purchase_price)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Print customer information&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Print &quot;Account Number:&quot;, account_number&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Print &quot;Customer Name:&quot;, customer_name&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="910" width="600" height="1500" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
