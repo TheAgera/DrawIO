@@ -1,101 +1,174 @@
-<mxfile host="app.diagrams.net" modified="2023-05-25T11:08:51.267Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="o2yqdXredt1VTdBvPwtD" version="21.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-26T02:34:01.542Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Fnwz8CVImCSK8CrwqqNm" version="21.3.3" type="github">
   <diagram name="Page-1" id="8bYPDBFf9vM7yHo1ai8J">
-    <mxGraphModel dx="1687" dy="927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="wSVqXRFub9iAn6hktArB-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wSVqXRFub9iAn6hktArB-1" target="wSVqXRFub9iAn6hktArB-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wSVqXRFub9iAn6hktArB-1" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wSVqXRFub9iAn6hktArB-1" value="Start" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
           <mxGeometry x="80" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wSVqXRFub9iAn6hktArB-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wSVqXRFub9iAn6hktArB-10" target="wSVqXRFub9iAn6hktArB-4">
+        <mxCell id="wSVqXRFub9iAn6hktArB-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wSVqXRFub9iAn6hktArB-10" target="wSVqXRFub9iAn6hktArB-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wSVqXRFub9iAn6hktArB-2" value="define filename variable" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="170" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wSVqXRFub9iAn6hktArB-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wSVqXRFub9iAn6hktArB-4" target="wSVqXRFub9iAn6hktArB-6">
+        <mxCell id="wSVqXRFub9iAn6hktArB-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="wSVqXRFub9iAn6hktArB-4" target="wSVqXRFub9iAn6hktArB-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wSVqXRFub9iAn6hktArB-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wSVqXRFub9iAn6hktArB-4" target="wSVqXRFub9iAn6hktArB-8">
+        <mxCell id="wSVqXRFub9iAn6hktArB-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wSVqXRFub9iAn6hktArB-4" target="wSVqXRFub9iAn6hktArB-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wSVqXRFub9iAn6hktArB-4" value="Does name equal quit&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="440" width="160" height="120" as="geometry" />
+        <mxCell id="wSVqXRFub9iAn6hktArB-4" value="Does name equal quit&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
+          <mxGeometry x="60" y="410" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="wSVqXRFub9iAn6hktArB-6" value="quit" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="470" width="120" height="60" as="geometry" />
+        <mxCell id="wSVqXRFub9iAn6hktArB-6" value="quit" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+          <mxGeometry x="230" y="560" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wSVqXRFub9iAn6hktArB-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wSVqXRFub9iAn6hktArB-8" target="wSVqXRFub9iAn6hktArB-12">
+        <mxCell id="wSVqXRFub9iAn6hktArB-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wSVqXRFub9iAn6hktArB-8" target="wSVqXRFub9iAn6hktArB-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wSVqXRFub9iAn6hktArB-8" value="input patient&lt;br&gt;address" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="670" width="120" height="60" as="geometry" />
+        <mxCell id="wSVqXRFub9iAn6hktArB-8" value="input patient&lt;br&gt;address" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+          <mxGeometry x="80" y="560" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wSVqXRFub9iAn6hktArB-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wSVqXRFub9iAn6hktArB-2" target="wSVqXRFub9iAn6hktArB-10">
+        <mxCell id="wSVqXRFub9iAn6hktArB-10" value="input patient name" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+          <mxGeometry x="80" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sRVWekUvQUQElb1ECD8f-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wSVqXRFub9iAn6hktArB-12" target="wSVqXRFub9iAn6hktArB-14">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="140" y="230" as="sourcePoint" />
-            <mxPoint x="140" y="440" as="targetPoint" />
+            <mxPoint x="140" y="870" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wSVqXRFub9iAn6hktArB-10" value="input patient name" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="300" width="120" height="60" as="geometry" />
+        <mxCell id="wSVqXRFub9iAn6hktArB-12" value="input patient&amp;nbsp;&lt;br&gt;birth_year" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+          <mxGeometry x="80" y="650" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wSVqXRFub9iAn6hktArB-12" value="input patient&amp;nbsp;&lt;br&gt;birth_year" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="810" width="120" height="60" as="geometry" />
+        <mxCell id="wSVqXRFub9iAn6hktArB-14" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="750" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="wSVqXRFub9iAn6hktArB-14" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="900" width="140" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="wSVqXRFub9iAn6hktArB-15" value="add_to_csv()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="wSVqXRFub9iAn6hktArB-14">
+        <mxCell id="wSVqXRFub9iAn6hktArB-15" value="add_to_csv()" style="text;strokeColor=#BD7000;fillColor=#f0a30a;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="wSVqXRFub9iAn6hktArB-14" vertex="1">
           <mxGeometry y="20" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wSVqXRFub9iAn6hktArB-18" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="990" width="140" height="50" as="geometry" />
+        <mxCell id="wSVqXRFub9iAn6hktArB-18" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="840" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="wSVqXRFub9iAn6hktArB-19" value="created_sorted_csv()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="wSVqXRFub9iAn6hktArB-18">
+        <mxCell id="wSVqXRFub9iAn6hktArB-19" value="created_sorted_csv()" style="text;strokeColor=#BD7000;fillColor=#f0a30a;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="wSVqXRFub9iAn6hktArB-18" vertex="1">
           <mxGeometry y="20" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wSVqXRFub9iAn6hktArB-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wSVqXRFub9iAn6hktArB-20" target="wSVqXRFub9iAn6hktArB-21">
+        <mxCell id="wSVqXRFub9iAn6hktArB-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wSVqXRFub9iAn6hktArB-20" target="wSVqXRFub9iAn6hktArB-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wSVqXRFub9iAn6hktArB-20" value="add_to_csv" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wSVqXRFub9iAn6hktArB-20" value="add_to_csv" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
           <mxGeometry x="380" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wSVqXRFub9iAn6hktArB-21" value="append csv,&lt;br&gt;write row[name, address, birth_year" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="170" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wSVqXRFub9iAn6hktArB-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wSVqXRFub9iAn6hktArB-24" target="wSVqXRFub9iAn6hktArB-25">
+        <mxCell id="sRVWekUvQUQElb1ECD8f-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wSVqXRFub9iAn6hktArB-21" target="sRVWekUvQUQElb1ECD8f-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wSVqXRFub9iAn6hktArB-24" value="create_sorted_csv" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wSVqXRFub9iAn6hktArB-21" value="parameters =&amp;nbsp;&lt;br&gt;data, name, address, and birth_year" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+          <mxGeometry x="380" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wSVqXRFub9iAn6hktArB-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wSVqXRFub9iAn6hktArB-24" target="wSVqXRFub9iAn6hktArB-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wSVqXRFub9iAn6hktArB-24" value="create_sorted_csv" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
           <mxGeometry x="620" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wSVqXRFub9iAn6hktArB-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wSVqXRFub9iAn6hktArB-25" target="wSVqXRFub9iAn6hktArB-26">
+        <mxCell id="wSVqXRFub9iAn6hktArB-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wSVqXRFub9iAn6hktArB-25" target="wSVqXRFub9iAn6hktArB-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wSVqXRFub9iAn6hktArB-25" value="read csv,&lt;br&gt;create sorted data variable" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="170" width="120" height="60" as="geometry" />
+        <mxCell id="wSVqXRFub9iAn6hktArB-25" value="parameters = data and fllename" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+          <mxGeometry x="620" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wSVqXRFub9iAn6hktArB-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wSVqXRFub9iAn6hktArB-26" target="wSVqXRFub9iAn6hktArB-28">
+        <mxCell id="sRVWekUvQUQElb1ECD8f-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wSVqXRFub9iAn6hktArB-26" target="sRVWekUvQUQElb1ECD8f-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wSVqXRFub9iAn6hktArB-26" value="sorted data = by integer" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="310" width="120" height="60" as="geometry" />
+        <mxCell id="wSVqXRFub9iAn6hktArB-26" value="uses the &quot;lambda&quot; function, as apart of python&#39;s built-in modules. Converts birth year to an integer for sorting." style="whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+          <mxGeometry x="600" y="210" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="wSVqXRFub9iAn6hktArB-28" value="open csv in write mode, write data to csv using previously defined variables" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="sRVWekUvQUQElb1ECD8f-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wSVqXRFub9iAn6hktArB-1" target="sRVWekUvQUQElb1ECD8f-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="60" as="sourcePoint" />
+            <mxPoint x="140" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sRVWekUvQUQElb1ECD8f-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sRVWekUvQUQElb1ECD8f-1" target="sRVWekUvQUQElb1ECD8f-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sRVWekUvQUQElb1ECD8f-1" value="import CSV module" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sRVWekUvQUQElb1ECD8f-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sRVWekUvQUQElb1ECD8f-3" target="sRVWekUvQUQElb1ECD8f-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sRVWekUvQUQElb1ECD8f-3" value="input filename" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+          <mxGeometry x="230" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sRVWekUvQUQElb1ECD8f-4" value="return sorted file in current working directory" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="230" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sRVWekUvQUQElb1ECD8f-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.061;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wSVqXRFub9iAn6hktArB-19" target="wSVqXRFub9iAn6hktArB-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="875" />
+              <mxPoint x="50" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sRVWekUvQUQElb1ECD8f-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sRVWekUvQUQElb1ECD8f-7" target="sRVWekUvQUQElb1ECD8f-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sRVWekUvQUQElb1ECD8f-7" value="creates a data variable that appends the values for a new line within a CSV file" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="380" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sRVWekUvQUQElb1ECD8f-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sRVWekUvQUQElb1ECD8f-9" target="sRVWekUvQUQElb1ECD8f-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sRVWekUvQUQElb1ECD8f-9" value="New CSV is created in write mode,. CSV write object is created, and sorted data is entered as inputs." style="whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="600" y="310" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sRVWekUvQUQElb1ECD8f-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sRVWekUvQUQElb1ECD8f-12" target="wSVqXRFub9iAn6hktArB-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sRVWekUvQUQElb1ECD8f-12" value="create an empty array, data = []" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sRVWekUvQUQElb1ECD8f-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="wSVqXRFub9iAn6hktArB-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="800" as="sourcePoint" />
+            <mxPoint x="150" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="137" y="800" />
+              <mxPoint x="140" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sRVWekUvQUQElb1ECD8f-16" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sRVWekUvQUQElb1ECD8f-17" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sRVWekUvQUQElb1ECD8f-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sRVWekUvQUQElb1ECD8f-18" target="sRVWekUvQUQElb1ECD8f-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sRVWekUvQUQElb1ECD8f-18" value="store into empty array, data = []" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="380" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sRVWekUvQUQElb1ECD8f-20" value="end" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
+          <mxGeometry x="380" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sRVWekUvQUQElb1ECD8f-22" value="end" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
           <mxGeometry x="620" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wSVqXRFub9iAn6hktArB-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="70" y="1020" as="sourcePoint" />
-            <mxPoint x="90" y="330" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="30" y="1025" />
-              <mxPoint x="30" y="330" />
-            </Array>
+        <mxCell id="sRVWekUvQUQElb1ECD8f-25" value="import csv&lt;br&gt;&lt;br&gt;function add_to_list(data, name, address, birth_year):&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;append (name, address, birth_year) to data list&lt;br&gt;&lt;br&gt;function create_sorted_csv(data, filename):&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Sort data list based on birth year with the lambda module&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Open a new CSV file with the provided filename&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Create a CSV writer associated with the file&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Write the sorted data to the CSV file&lt;br&gt;&lt;br&gt;data = empty&lt;br&gt;&lt;br&gt;While True:&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Input for name&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;if input is &#39;quit:&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Break the loop&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Input for address&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Input for birthyear&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Call add_to_list function with data, name, address, and birth year&lt;br&gt;Input for filename of sorted patients&lt;br&gt;&lt;br&gt;Call create_sorted_csv function with data and filename + &#39;.csv&#39;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="540" width="340" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="sRVWekUvQUQElb1ECD8f-26" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="1060" as="sourcePoint" />
+            <mxPoint x="400" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sRVWekUvQUQElb1ECD8f-27" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="sRVWekUvQUQElb1ECD8f-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="650" as="sourcePoint" />
+            <mxPoint x="400" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
