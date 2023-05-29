@@ -1,26 +1,113 @@
-<mxfile host="app.diagrams.net" modified="2023-05-28T19:48:09.662Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Zxn4meBbL7od-HCRogmE" version="21.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-29T23:51:00.198Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="G3MQ78ovFBGAbab4ZTSi" version="21.3.5" type="github">
   <diagram name="Page-1" id="TZz7JsrTbdM4urff8fKF">
     <mxGraphModel dx="2074" dy="1116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NmWHEteoTNc7B1VcISs8-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9bdl5GQmx_4V7P1YEYrL-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NmWHEteoTNc7B1VcISs8-2" target="NmWHEteoTNc7B1VcISs8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NmWHEteoTNc7B1VcISs8-2" value="Start" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="120" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NmWHEteoTNc7B1VcISs8-4" value="Automobile Loan" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="150" width="140" height="150" as="geometry" />
+        <mxCell id="NmWHEteoTNc7B1VcISs8-4" value="Automobile Loan" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
+          <mxGeometry x="110" y="150" width="140" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="NmWHEteoTNc7B1VcISs8-5" value="loan number (int)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="NmWHEteoTNc7B1VcISs8-4">
+        <mxCell id="NmWHEteoTNc7B1VcISs8-5" value="loan number (int)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="NmWHEteoTNc7B1VcISs8-4" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NmWHEteoTNc7B1VcISs8-6" value="make (str)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="NmWHEteoTNc7B1VcISs8-4">
+        <mxCell id="NmWHEteoTNc7B1VcISs8-6" value="make &amp;amp; model (str)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="NmWHEteoTNc7B1VcISs8-4" vertex="1">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NmWHEteoTNc7B1VcISs8-8" value="model : str)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="NmWHEteoTNc7B1VcISs8-4">
+        <mxCell id="NmWHEteoTNc7B1VcISs8-7" value="balance (float)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="NmWHEteoTNc7B1VcISs8-4" vertex="1">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NmWHEteoTNc7B1VcISs8-7" value="balance (float)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="NmWHEteoTNc7B1VcISs8-4">
-          <mxGeometry y="120" width="140" height="30" as="geometry" />
+        <mxCell id="9bdl5GQmx_4V7P1YEYrL-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="NmWHEteoTNc7B1VcISs8-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="590" as="sourcePoint" />
+            <mxPoint x="180" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9bdl5GQmx_4V7P1YEYrL-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9bdl5GQmx_4V7P1YEYrL-2" target="9bdl5GQmx_4V7P1YEYrL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9bdl5GQmx_4V7P1YEYrL-2" value="input&amp;nbsp;&lt;br&gt;loan_number,&lt;br&gt;make_and_model,&lt;br&gt;loan_balance" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+          <mxGeometry x="90" y="320" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9bdl5GQmx_4V7P1YEYrL-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9bdl5GQmx_4V7P1YEYrL-3" target="9bdl5GQmx_4V7P1YEYrL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9bdl5GQmx_4V7P1YEYrL-3" value="set &lt;br&gt;loan_number" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="120" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9bdl5GQmx_4V7P1YEYrL-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9bdl5GQmx_4V7P1YEYrL-5" target="9bdl5GQmx_4V7P1YEYrL-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9bdl5GQmx_4V7P1YEYrL-5" value="set&amp;nbsp;&lt;br&gt;make_and_model" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="120" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9bdl5GQmx_4V7P1YEYrL-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9bdl5GQmx_4V7P1YEYrL-7" target="9bdl5GQmx_4V7P1YEYrL-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9bdl5GQmx_4V7P1YEYrL-7" value="set&lt;br&gt;loan_balance" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="120" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9bdl5GQmx_4V7P1YEYrL-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9bdl5GQmx_4V7P1YEYrL-9" target="9bdl5GQmx_4V7P1YEYrL-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9bdl5GQmx_4V7P1YEYrL-9" value="Output Loan&lt;br&gt;Information" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+          <mxGeometry x="120" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9bdl5GQmx_4V7P1YEYrL-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9bdl5GQmx_4V7P1YEYrL-11" target="9bdl5GQmx_4V7P1YEYrL-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9bdl5GQmx_4V7P1YEYrL-11" value="Input for another&lt;br&gt;loan" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="320" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9bdl5GQmx_4V7P1YEYrL-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9bdl5GQmx_4V7P1YEYrL-13" target="9bdl5GQmx_4V7P1YEYrL-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9bdl5GQmx_4V7P1YEYrL-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9bdl5GQmx_4V7P1YEYrL-13" target="9bdl5GQmx_4V7P1YEYrL-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9bdl5GQmx_4V7P1YEYrL-13" value="does input &lt;br&gt;equal yes?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="530" y="830" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9bdl5GQmx_4V7P1YEYrL-15" value="End" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="520" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9bdl5GQmx_4V7P1YEYrL-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9bdl5GQmx_4V7P1YEYrL-17" target="9bdl5GQmx_4V7P1YEYrL-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="650" />
+              <mxPoint x="300" y="650" />
+              <mxPoint x="300" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9bdl5GQmx_4V7P1YEYrL-17" value="Reset class" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="520" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9bdl5GQmx_4V7P1YEYrL-21" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="920" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9bdl5GQmx_4V7P1YEYrL-22" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="800" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9bdl5GQmx_4V7P1YEYrL-23" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="620" as="sourcePoint" />
+            <mxPoint x="810" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9bdl5GQmx_4V7P1YEYrL-24" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="620" as="sourcePoint" />
+            <mxPoint x="340" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9bdl5GQmx_4V7P1YEYrL-25" value="&lt;div&gt;class AutomobileLoan:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Declarations:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; loan_number&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; make_and_model&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; loan_balance&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;def set_loan_number (customer, loan_number)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;customer.loan_number = loan_number&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;def set_make_and_model(customer, make_and_model)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;customer.make_and_model = make_and_model&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;def set_loan_balance(customer, loan_balance)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;customer.loan_balance = loan_balance&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;def display_loan_info(customer)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;print Loan Number&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;print Make and Model&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;print Balance&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;while true:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; loan = create_instance_of_AutomobileLoan()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; loan_number = input&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; make_and_model = input&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; balance = float(input)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; loan.set_loan_number(loan_number)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; loan.set_make_and_model(make_and_model)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; loan.set_balance(balance)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; loan.display_loan_info()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; another_loan = input(&quot;(yes/no): &quot;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if another_loan does not equal &quot;yes&quot;:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; break&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="50" width="460" height="560" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
